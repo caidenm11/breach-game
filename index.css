@@ -123,8 +123,8 @@ p {
 #hero {
     min-height: 100vh;
     background:
-        linear-gradient(135deg, rgba(8, 12, 20, 0.9) 0%, rgba(8, 12, 20, 0.8) 100%),
-        url('./images/hero_texture.png') center/cover repeat;
+        linear-gradient(135deg, rgba(4, 8, 15, 0.82) 0%, rgba(4, 8, 15, 0.75) 100%),
+        url('./images/game_board.png') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -678,6 +678,22 @@ footer {
     border-radius: 8px;
     border: 1px solid var(--border-dim);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* ── Meeting Minutes ── */
+.meeting-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.meeting-page {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border-dim);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    background: #fff;
 }
 
 /* ── Responsive ── */
