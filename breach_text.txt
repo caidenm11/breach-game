@@ -1,0 +1,649 @@
+Draft
+
+Breach
+Concept
+​
+My idea is a deckbuilder game based on drag and drop coding languages like scratch.
+There is a central server with a finite amount of points that the players are trying to steal,
+and a security level (that will be important later)
+Each player will also have a server with a limited amount of memory (which will function
+like mana or energy in other card games) as well as points and security level (like the
+central server)
+Players will use cards to build programs that target either the central server or another
+player’s server, with the goal of having the most points by the end of the game.
+Function cards have a point value, and cost memory to use; they’ll do things to the target
+server for example: raising/lowering the security level, stealing a certain % of the
+server’s points, increasing how many points are on the server, etc.
+Certain function cards will require the player to roll a d20 against the server’s security
+level, if they roll under they lose all points gained that turn and end execution of their
+program.
+Along with these, players will be able to use as many of the following cards as they wish:
+Comparators: =, <, >, !=
+Conditionals: if/else
+Loops: for loops/while loops
+Once the central server’s points have been depleted to 0 complete the round, and then
+end the game. The player with the most points wins.
+
+Start of the game
+Give each player 1 of each of the starter function cards:
+​
+
+Weaken: permanently reduce security level
+
+​
+
+Steal: take a % of the points
+Increase: Increase the number of points by a %​
+
+Along with a sheet of paper to keep track of their point total and server stats
+
+Turns
+On a turn a player will, in order:
+1)​ Run their program
+2)​ Draw 5 cards from a shared deck: they can then choose to trade some
+points to buy their pick of the cards drawn.
+Be able to trade their points to upgrade their server (either increasing the
+security or the amount of memory they have available)
+Be able to offer deals to other players
+3)​ Make changes to their program (including the server they’ll target on their
+next turn)
+
+Criteria Checklist
+
+​
+A large banner image showing the game board
+The game's title
+
+✅
+
+✅
+
+A short and succinct core statement (one sentence) (Rayan)
+"In Breach, players compete to write the most efficient code and drain the central
+server's points before their rivals can steal them."
+A board game trailer (search for examples on YouTube to emulate), under 3 minutes long.
+The video can be as simple as a TikTok style video, and doesn't need to be highly
+produced. Do the best you can with your team's video production skills.
+
+A short paragraph contextualizing the game in terms of similar
+games you drew inspiration from. (Den) (Rayan)​
+
+Breach draws inspiration from multiple sources that explore systems, technology, and
+societal power structures. The cyberpunkian genre emphasizes themes of corporate
+control, digital infrastructure, and underground resistance, which inform the game’s
+hacker fantasy and competitive network warfare. The programming game Bitburner
+influenced the use of code-like logic structures, encouraging players to think
+algorithmically through conditional statements and loops. The song “Mars for the Rich”
+by King Gizzard & the Lizard Wizard, alongside broader climate-crisis discourse, inspired
+the theme of resource inequality and exploitation, reflected in players competing over
+limited data resources controlled by a central system. Together, these influences shape
+Breach into a strategic hacking game that blends coding logic, cyberpunk aesthetics,
+and commentary on resource control and power. Additionally, The open source spirit of
+collaborative coding communities, where programmers share snippets and build upon
+each other's work, inspired the shared deck and the ability for players to adapt their
+programs round to round, reflecting how real code is never finished but only repeated.
+Moreover, the gamification of attention and data extraction in real world social media
+platforms served as a darker inspiration, subtly asking players to consider, who really
+owns the data we create, and what happens when we try to take it back?
+
+A statement of your three game pillars (for example: What, How,
+Why), one sentence per pillar. (Den)
+What: Compete to become the top hacker by stealing data points from the Central
+Server and rival servers.
+Players operate personal servers, attack others, and defend their own systems while the
+Central Server’s resources are drained over time.
+​
+How: Players build and execute hacking programs using code-inspired cards while
+managing memory, security risks, and server defenses.
+Players:
+●​ construct attack programs using Function, If/Else, and Loop cards​
+●​ target the Central Server or other players​
+●​ manage RAM (memory) to run programs​
+●​ weaken defenses and breach firewalls​
+●​ upgrade their server protection and capacity​
+●​ respond to security checks, failures, and warden suspicion
+Why: ​
+To out-hack opponents and prove mastery by accumulating the most data points before
+the Central Server is depleted.
+Players are motivated by:
+●​ competitive dominance​
+●​ risk-reward hacking decisions​
+●​ defending personal assets while exploiting others​
+
+●​ strategic negotiation and deception​
+
+Thematic backstory (characters, storyworld, premise of the action etc.).​
+Check story and world building tab
+
+✅
+
+A visual gallery of all the game components other than the main playing board (e.g.
+cards, dice, pieces representing players, etc.). It is ok to use generative AI platforms to
+produce visual elements for your board game.
+
+✅
+
+The Rule Book (if you are submitting a world-facing website, this can be a link to a
+separate downloadable PDF from the web page). (Rayan & Denis)
+Group meeting log: this should show minutes and summaries of each group meeting (if
+you are submitting a world-facing website, this can be a link to a separate downloadable
+PDF from the web page). The first page of each meeting's minutes is sufficient for this
+document.
+
+✅
+
+Playtesting log: this should show what you learned during playtesting and how you
+revised the game based on insights gleaned (if you are submitting a world-facing
+website, this can be a link to a separate downloadable PDF from the web page).
+
+✅
+
+Flowcharts (please look ahead to the Flowchart lecture in Week 11 for an understanding
+of how these are made) showing the games primary mechanics outlined as a logical
+structure tree (if you are submitting a world-facing website, this can be a link to a
+separate downloadable PDF from the web page).
+A quantitative analysis of game balance, showing how probabilities and other design
+factors were used to achieve a balanced outcome (if you are submitting a world-facing
+website, this can be a link to a separate downloadable PDF from the web page). For
+example, in play testing the game, you may have made discoveries about probabilities
+that had to be adjusted to make for more fair or interesting gameplay, so you can discuss
+intentional changes made to the quantitative aspects of the game. You can also discuss
+other quantitative items, such as how long a full game play takes (e.g. start to win),
+average time taken per turn, ranges of scores (high-to-low), probabilities for certain
+cards to be drawn compared to die rolls, etc. Every game will be a bit different, so the
+goal here is to present a quantitative profile of your game, and how you used quantitative
+information in your design process to make a better game.
+
+✅
+
+Quantitative Balance Profile (Rayan)
+Game balance was adjusted mainly through the d20 security check: to succeed, you roll
+equal to or higher than the target’s Security. A simple way to estimate success is: count how
+many die results work and divide by 20. For example, against Security 10, rolls 10–20
+succeed (11 results), so that’s 11/20 = 55%. Against the CRS at Security 12, rolls 12–20
+succeed (9 results), so 9/20 = 45%. This 10% gap intentionally makes the CRS slightly
+harder to exploit than other players early on, while still being a reliable shared target. We
+also balanced “big turns” with the natural 1 / natural 20 rule: a 1 ends the program (so longer
+programs are riskier), while a 20 makes the rest of the turn succeed, which adds exciting,
+rare momentum swings without making them common.
+We used Memory as the main limiter on combo strength, because function cards cost
+memory each time they activate (and loops repeat those costs). Players start at 5 Memory,
+so strong early turns are possible but capped. A simple example is the common setup-payoff
+line: Super Weaken (3GB) then Steal (2GB) totals 3 + 2 = 5GB, meaning it fits exactly but
+leaves no room for extra function spam. That’s deliberate: you can pull off a meaningful
+attack, but if you try to loop it, memory adds up quickly and your program can terminate for
+exceeding memory. This made playtests feel fair because players could plan combos, but
+the game naturally prevents one player from executing unlimited “engine” turns without
+investing in memory upgrades.
+We used percent based point effects (like Steal = 10% of the target’s points) instead of flat
+steals because percentages scale automatically across the whole game. A flat “steal 10” is
+extremely strong when someone only has 20-30 points, but becomes minor when servers
+and the CRS reach 100+; with percentages, the payout scales naturally (10% of 30 = 3, 10%
+of 120 = 12). This also creates a soft catch up mechanic: the most profitable targets tend to
+be the players who are ahead or the CRS, which grows as everyone spends points in the
+shop, so players who are behind can make smarter target choices to close the gap. At the
+same time, it discourages “kicking someone while they are down,” because stealing from a
+low point player gives a small return compared to hitting a rich target. Overall, percent based
+modifiers force deeper thinking about timing, target selection, and risk, you are not just
+maximizing your own points, you are watching who is accumulating points, who is close to a
+ticket, and when it is worth taking a bigger swing.
+Finally, we balanced pacing and comeback potential through the point economy. Ticket
+prices increase (30, then 60, then 90), which prevents every player from racing the same
+cheap escape and forces interaction as the game progresses. We also made it so points
+spent in the shop are added to the CRS, which keeps the CRS relevant and helps prevent
+runaway leaders: if the table collectively spends 50 points on cards/upgrades, the CRS gains
++50 points. Since Steal takes 10% on a success, a successful Steal from a 150-point CRS
+would be 15 points (10% of 150), compared to 10 points when it’s at 100, so shopping
+naturally increases the value of attacking the CRS later. Together with the 24-round limit,
+these numbers create a consistent arc: early turns are constrained by memory and moderate
+success rates, midgame spending grows the CRS as a catch-up target, and escalating ticket
+costs push the endgame toward high-stakes decisions rather than a quick, solved strategy.
+
+A description of the main game Dynamics (i.e. successful strategies that emerged).
+
+✅
+
+Main Game Strategies (Rayan)
+Several compelling strategies naturally emerge from Breach’s core mechanics,
+encouraging different play styles and adaptability:
+The Infiltrator: focuses on weakening a target’s security over several turns using low cost
+Weaken functions, often combined with loops or conditionals. Once security is low, they
+launch a safe, high percentage Steal with very little risk of failure.
+The Gambler: builds powerful, memory heavy programs designed to steal huge chunks of
+points in one turn. This approach can lead to massive gains, but if their d20 roll fails
+against a server’s security, they lose all points earned that turn.
+The Fortress: avoids aggressive plays early and instead spends points to boost their own
+server’s security and memory capacity. By becoming a hard target, they survive attacks
+while others fight, then strike when opponents are weak or out of resources.
+The Puppet Master: uses conditions and loops to create flexible, reactive programs that
+adapt to changing conditions. They also form temporary alliances and make deals to
+manipulate the game state in their favor, often staying under the radar while pulling the
+strings.
+The Hacker: wins through efficiency, building compact, smart programs that use minimal
+memory to achieve maximum effect. Their strength lies in doing more with less, letting
+them run stronger or longer code than opponents using the same cards.
+A description of trade-offs and dilemmas that emerge in gameplay.
+
+✅
+
+B. Key Trade-Offs and Dilemmas (Rayan)
+Risk vs. Reward is central to every attack. Players must decide whether to target high
+security servers for bigger gains or play it safe on weaker ones, even if the payoff is
+smaller. One failed roll can erase a whole turn’s progress, making timing and planning
+critical.
+Invest Now vs. Grow Later? Every point spent on cards or attacks is a point not used to
+upgrade your server. Stronger security protects you from theft, and more memory lets
+you run better programs, but saving too long can let others take the lead.
+
+Who Should I Attack? Going after the central server helps end the game and avoids
+revenge, but gives fewer points. Targeting another player can boost your score fast, but
+makes you a target and can spark a back-and-forth war.
+Simple vs. Complex Programs creates a constant design challenge. Adding loops and
+conditionals makes your code more powerful, but long programs are harder to manage
+and more likely to fail mid-execution. Simpler programs are reliable, but less efficient over
+time.
+Trust or Betray? Players can make deals, like teaming up to weaken a server or agreeing
+not to attack each other. But since deals aren’t enforced, there’s always tension: do you
+keep your promise, or break it to secure victory? This adds bluffing, strategy, and drama.
+When Do I Commit to Escaping? Since the game always ends at 24 rounds, players must
+choose when to buy a ticket (early safety vs. later efficiency) while still maximizing final
+points. Buying early reduces the risk of missing the ship, but it can slow your ability and
+reduces your chance to buy cards/upgrades. Waiting longer may produce a bigger
+score, but increases the chance you get disrupted and run out of time.
+A description of how long a typical play session lasts.
+
+✅
+
+Length of a Typical Play Session (Rayan)
+In our first playtest with three players, the game lasted about 30 minutes. Because
+players targeted the central server often, its points were drained fairly quickly, which
+ended the game sooner than expected. In future sessions, we expect the game to last
+30–60 minutes, depending on play style. If players focus more on attacking each other
+and upgrading their servers, the game will likely take longer. Increasing the starting
+points of the central server could also extend the average playtime if needed.
+
+The last part of the submission needs to detail exactly what each team member
+contributed to the project, beyond general ideas or conversation. A record needs to be
+produced of exactly which game deliverables were worked on by who and by
+approximately what percentage, in case a dispute arises as to the fair assignment of the
+grade to each team member (if you are submitting a world-facing website, this can be a
+link to a separate downloadable PDF from the web page).
+there should be a randomness component
+
+✅
+
+there should be a strategy and skill component
+
+✅
+
+there needs to be some kind of background narrative premise/storyworld aspect
+
+✅
+
+Your goal is a preproduction prototype, which means that it doesn't have to be quite
+ready to be shipped as a final product, but should be more or less 'good to go' for either
+of the following scenarios:
+• a print-to-play game​
+• a prototype from which a real board game can be produced​
+• a prototype for a digital board game.
+
+Formalized Gameplay Loop
+
+Cards & Servers
+
+Server Base Values
+Central Server:​
+Resources (points): 100​
+Security Level: 12
+Time: 24hr //when the central server time hits 0, the ship leaves and the game ends.
+Memory: N/A
+​
+Player Starting Server:
+Resources (points): 10​
+Security Level: 10
+Memory: 5gb​
+
+Cards
+Steal: (2gb) Roll against the target’s security level, on success steal 10% of their resources
+(minimum 1).
+Increase: (2gb) Increase resources on a target server by 10% (cannot apply to own server)
+Weaken: (2gb) Roll against the target’s security level, on success lower target security level
+by 1
+​
+Comparator: (No cost)
+If/else: (1gb)
+Loop: (2gb), function costs add up during loop. ie: for(i = 0, i<3){steal()} //costs 8gb
+Other ideas:
+Mass Steal: steal a smaller % from all servers
+Blatant Steal: steal more resources then increase target server security
+On a failed security check:
+Lose all resources gained this turn
+Program immediately halts
+
+Story & Worldbuilding
+
+The World of Breach
+(Aleeza)
+Though Breach takes place on Earth, its current state is far removed from the reality we
+currently experience. Set in the far off future of the year 4027, the planet is an amalgamation
+of human flaws that has reached its true extremes. Greed and capitalism, manifested in the
+far too crowded cities that sprawl across what were once sovereign nations, with tall,
+clustered buildings that make walking feel claustrophobic. The continued effects of
+exploitation linger in the toxic, suffocating air that hangs over the planet like a haunting
+ghost. Disregard for life is seen by the lack of natural plants as expansion became rampant
+and snatching resources to keep them to oneself became the norm. The Earth is barely a
+planet now. A dead home for those unfortunate enough to have to remain. It is only a matter
+of time before they, too, become corpses.
+The Earth’s richest and wealthiest have long left, taking their rocketships to their new home:
+Mars. Anyone unable to pay the required fees for these trips were forced to remain on Earth,
+scrambling to make a living for themselves in a society still determined to churn out profit
+despite crumbling at the seams.
+All of the players are part of the billions of unlucky souls who are trying to make a decent life
+down on Earth. For a while, it was acceptable. Not pleasant, not at all – there was little
+comfort in this contorted landscape of theirs. They were programmers, working for The
+Company ™, a corporate monopoly which had sunk their teeth into just about every aspect
+of life. From organizing the trips to Mars, to owning the land they live on, to providing the
+food they eat, to the media they consume, it was all property of The Company ™. Their pay
+was sufficient, but certainly nothing to gloat about.
+That was, of course, until that faithful day arrived. In another round of mass layoffs, the
+players find themselves robbed of a stable income. With The Company’s ™ hold on
+everything, they had no place to turn to. Money ruled this world, and without that, their lives
+were destined to crumble and decay like all the others before them.
+Then, came both a blessing and a curse. Their salvation, wrapped in thorns; another one
+way trip to Mars had been announced. This, however, was different than before.
+This was the final trip.
+Anyone unable to pay the exorbitantly large entry fee would be doomed to remain in this
+disintegrating society, thrown away and discarded to die a slow, pitiful death. Of course, their
+singular spark of hope came with a price. Quite literally, this time.
+Tickets are disappearing by the day, and prices are only climbing higher.
+Our protagonists are getting desperate. Time is running out, slipping away through their
+fingers. How could they get the money in such a short period of time?
+The answer comes to them suddenly. They had one skill which they’d honed for all these
+years now. Working for The Company ™, they knew all the ins and outs of how they kept
+
+their money secure. Hacking into the main server to obtain their funds to leave this life
+behind was the only way forward, now.
+The last trip. The last ticket.
+It is every man for themselves. For their own sake, they need to breach the central server
+and obtain money required to finally get out. In 24 hours, the trip shall make its final
+departure.
+May the best programmer win.
+
+Inspirations
+
+Inspirations:
+https://en.wikipedia.org/wiki/Climate_change
+https://genius.com/King-gizzard-and-the-lizard-wizard-mars-for-the-rich-lyrics
+https://danielyxie.github.io/bitburner/
+https://en.wikipedia.org/wiki/Cyberpunk_(role-playing_game)
+
+Rulebook
+
+RULEBOOK
+Introduction (Rayan)
+Welcome to Breach, a card game where you play as a hacker.
+Your goal is to steal the most data points.
+You will build attack programs using simple code blocks like Function Cards, If/Else
+statements, and Loops.
+Steal from the Central Server and from other players' servers, while protecting your
+own data with firewalls and upgrades.
+Manage your Memory to run powerful attacks, but watch out for security rolls that
+can shut your program down.
+The game ends when the Central Server runs out of Points. The best hacker, the
+one with the most Points wins.
+
+Setup: (Rayan & Dennis)
+Follow these steps to prepare the game:
+1. Prepare the Central Server
+Place the Central Server board in the middle of the table {If we decided to go
+with a board}.
+Set total cash to {Default: 100,000,000}.
+Set default Firewall Defenses to {24 Integrity}. (will decrease by one every
+turn passively. Players may impact this amount based on cards they play)
+2. Prepare Each Player
+Each player takes a Player Server Mat {Max player count: 4}.
+On start, each player mat has:
+Their Server Dashboard:
+Memory: {Default starting amount: 5 GB}
+
+Firewall: {1 Integrity}
+Cash: {Default starting amount: $5000}
+Each player receives the {Insert a number} starter Function Cards:
+●​ Weaken
+●​ Steal
+●​ Increase
+3. Prepare the Shared Deck
+Shuffle the main deck of Function and Logic Cards.
+Place it face down as the draw pile.
+4. Determine First Player
+​
+Randomly
+Or by drawing straws/cards,
+
+Gameplay: (Rayan & Dennis)
+Turn Structure
+Play starts clockwise. On your turn, complete these 5 steps in order:
+
+1. Run Program Phase
+●​ Choose one target: Central Server or another player's server.
+●​ Play cards from your hand.
+
+1.1 Successful Program
+
+-​ If the program is successful at its task, benefits associated will be granted
+immediately and can be used during the upgrade and draw phase.
+
+1.2 Failed Program
+-​ If the program fails, all consequences will be assigned immediately and will be
+applied during the draw and buy phase.
+-​ If the player fails to steal from the central server 5 times (warden suspicion),
+they must then choose a player to act as a warden. The warden will then roll
+2 dice, and is not allowed to use any modifiers to add points to the total score.
+The player must score higher than the warden to evade arrest, the player
+may use cash to increase their score.
+-​ Each dice point will cost $5000.
+-​ If the player fails to score higher than the warden, they are then arrested for 1
+turn. They will not be allowed to participate in their draw, buy, and upgrade
+phase. They may still negotiate with other players if they, but their turn is
+fundamentally skipped.
+-​ The warden suspicion score will only reset when the player is arrested.
+
+2. Draw & Buy Phase
+●​ Draw 5 cards from the shared deck.
+●​ You may spend your cash to buy any of these cards. Each card has a printed
+cash cost.
+●​ Place purchased cards into your personal discard pile.
+●​ Return unbought cards to the bottom of the deck.
+●​ Your ram amount will reset, unless a card effect is in play.
+
+You may also buy ram but at an inflated rate (cost increases every turn)
+If the Ramflation card is in play, the cost of ram is increased by 200%
+
+3. Upgrade Phase
+●​ You may spend Points to improve your home server:
+
+○​ +{Insert a number} Max Ram upgrade: Costs ($5000 for each GB
+RAM)
+○​ +{insert a number} Firewall Integrity Costs $(starts at $5000, increases
+by $2500 every upgrade, if you lose an integrity from sabotage, the
+cost will not decrease.
+4. Negotiation Phase
+●​ You may negotiate during any phase to make more informed decisions
+●​ You may talk to other players and make deals (trading cash, future help).
+●​ All deals are non-binding unless enforced by card effects or game rules
+
+Note: If a player is found to be cheating, you may kick them out of the game or come
+up with an elaborate action they must perform to be allowed to continue. Or they are
+sent to jail
+
+Scoring (Rayan)
+Players gain points by successfully executing function cards that steal or generate points
+from the central server or other players’ servers. Any points gained during program
+execution are immediately added to the player’s total score.
+When a function requires a d20 roll, the player must roll equal to or higher than the target
+server’s security level for the function to succeed. Meeting the security level counts as a
+success. If a function fails, the effect does not occur and the target server’s security level
+increases by 1.
+Rolling a natural 20 is a Critical Success. All rolls made by that player for the remainder of
+the turn automatically succeed. Rolling a natural 1 is a Critical Failure. All rolls made by that
+player for the remainder of the turn automatically fail.
+All percentage-based effects round up by default.
+The game ends when the central server’s points are reduced to 0. After finishing the current
+round so that all players have had an equal number of turns, the player with the highest total
+points wins.
+
+Advanced Rules - Optional Rules (Rayan)
+Critical Success and Failure Variant
+
+Groups may choose to remove the critical success (natural 20) and critical failure (natural 1)
+rule for a more strategy-focused experience with less randomness.
+Central Server Length Adjustment
+To adjust game length, players may increase or decrease the starting points of the central
+server. Higher starting points result in longer games, while lower starting points create faster
+games.
+One-Time Use Limit
+Groups may limit the number of one-time-use function cards included in the deck to reduce
+swing-heavy turns and create a more controlled experience.
+
+Card Glossary & Details
+Steal Card (Rayan & Dennis)​
+Cost: {Insert a number} GB​
+Type: Function (Attack)
+Breaching Power: 1
+-​ Breaching power the likelihood for a steal to be successful, based on the
+integrity of the server they are attacking.
+-​ A breaching power higher than an integrity count will result in a 100% success
+rate at a steal being successful.
+-​ A breaching power lower than an integrity count will result in a 10% reduction
+in success based on the difference.
+-​ Example: If a server's integrity is 10, and breaching power is 1, the
+difference is 9 therefore they have a 10% chance of success, or a 90%
+chance of failure.
+Effect:
+1.​ Choose a target server, either the central server or other players.
+2.​ Test Security: Check if the target's Security Level is low enough for this attack
+to work.
+3.​ If the attack works: Take 10% of the target's Cash (minimum 1). Add them to
+your total.
+4.​ If the attack against player fails: Gain nothing, and stop your program for this
+turn
+
+5.​ If stealing from the central server fails: Gain nothing, increase warden
+suspicion by 1, stop program for this turn.
+
+Flat Increase Card
+Cost: 2 GB
+Type: Function (Utility)
+Effect: Choose a target server (your own, another player’s, or the central server).
+Add a fixed +5 Cash to the target server.
+This card does not require a security test. All values round up if modified by other
+effects.
+Strengthen Card
+Cost: 3 GB
+Type: Function (Defense)
+Effect: Choose a target server.
+Increase that server’s Security Level by +2.
+This card may be used on your own server or another player’s server. Strengthen
+does not require a security test.
+Overclock Card
+Cost: 4 GB
+Type: Function (Utility)
+Effect: Increase your available Memory by +3 GB for this turn only.
+This additional memory may only be used during the current program execution. At
+the end of the turn, memory returns to its normal maximum value.
+Disable System Card
+Cost: 5 GB
+
+Type: Function (Attack – One-Time Use)
+Effect: Choose a target server. That server cannot run Function (Attack) cards on its
+next turn. After resolving its effect, remove this card from the game.
+IF ELSE Card (Dennis)
+-​
+-​
+-​
+
+This card can be used to execute any card type based on the given conditions.
+Once the conditions of the card block are met, the cards assigned will be executed.
+Each If Else card block can handle two cards, one in the If brackets and one in the
+else brackets.
+
+Example
+Run If card block (Cost : 1 gb per run)
+If(server_firewall_defense < 100.0){
+basic_steal_Card()//Probability of Success: 67%}
+else{basic_weaken_server_Card()//Probability of Success: 100% }
+-​
+
+The cost of the if block will increase based on the cards used!
+
+Along with these, players will be able to use as many of the following cards as
+they wish:
+Comparators: =, <, >, !=
+Conditionals: if/else
+Loops: for loops/while loops
+Weaken card (Dennis)
+Cost: 1 GB​
+Type: Function (Attack)
+Strength against main server: -1 integrity(upgradable)
+Strength against player servers: -0.5 integrity(upgradable)
+This card will weaken the integrity of the server or the enemy player.​
+
+FAQ (Frequently Asked Questions) (Rayan)
+
+1. What is the difference between Cash and Points?
+In Breach, Cash and Points are the same resource. When you steal or generate
+Cash, it is immediately added to your total score. The player with the most Cash
+(Points) at the end of the game wins.
+2. What happens if I run out of Memory (RAM) while executing my program?
+You may not exceed your available Memory during the Run Program Phase. If you
+cannot afford the Memory cost of the next card in your sequence, that card cannot
+be executed. Memory resets to your maximum at the end of your turn unless
+modified by a card effect.
+3. Can I target myself with cards?
+Yes, if the card allows you to choose a target server, you may target your own server
+unless the card specifically says otherwise. This is commonly used for defensive or
+utility cards like Strengthen or Flat Increase.
+4. What happens if multiple effects modify the same value?
+All effects are applied in the order they are executed during the program. If
+percentages are involved, all values round up by default. Players should clearly track
+changes on their server dashboard immediately.
+5. What happens when Security Level increases after a failed attack?
+If a function fails its Security test, the effect does not occur and the target server’s
+Security Level increases by 1. This makes repeated failed attacks more difficult over
+time.
+6. Does meeting the Security Level count as success?
+Yes. If you roll equal to the target’s Security Level, the function succeeds.
+7. How do Critical Success and Critical Failure work?
+If you roll a natural 20 on a required d20 roll, all rolls you make for the rest of that
+turn automatically succeed.
+
+If you roll a natural 1, all rolls for the rest of that turn automatically fail.
+
+Moodboard Images
+
+Original Cyberpunk Board game
+
+Pinterest Board: https://pin.it/6SXLzh2bU
+
+Rules
+
+(Rayan)
+Typical sections of a rulebook include:
+Introduction: This section provides an overview of the game and its objective.
+Setup: This section explains how to set up the game, including how to prepare the game
+board and any components that are needed.
+Gameplay: This section explains how to play the game, including the order of play, how to
+take turns, and any special rules that apply.
+Scoring: This section explains how players score points and win the game.
+Advanced rules: This section includes any optional rules or variations on the basic game
+that players can choose to use.
+Glossary: This section defines any terms that are used in the rulebook.
+FAQ: This section answers common questions that players may have about the game.​
+​
+​
+​
+​
+
+FLOWCHART
+
+
